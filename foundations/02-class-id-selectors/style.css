@@ -1,0 +1,18 @@
+.pinky-font {
+	background-color: pink;
+	font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.big {
+	font-size: 24px;
+}
+
+#numbah-too {
+	color: blue;
+	font-size: 36px;
+}
+
+#numbah-four {
+	background-color: LightGreen;
+	font-weight: bold;
+}
