@@ -59,3 +59,8 @@ input {
 .footer {
 	background: #eeeeee;
 }
+
+a {
+	text-decoration: none;
+	color: #5A5A5A;
+}
