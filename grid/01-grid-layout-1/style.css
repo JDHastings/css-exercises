@@ -45,3 +45,41 @@ body, html {
 .footer {
   background-color: #393f4d;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 1000px;
+  grid-template-rows: repeat(10, 100px);
+  gap: 10px;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.sidebar {
+  grid-row-start: 2;
+  grid-row-end: 8;
+}
+
+.nav {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.article {
+  grid-row-start: 3;
+  grid-row-end: 8;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 9;
+}
